@@ -1,0 +1,52 @@
+
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Poppins',sans-serif;background:#9f9f9f;color:#040404;}
+.container{width:90%;max-width:1100px;margin:auto;}
+a{text-decoration:none;color:#ff4b2b;}
+h2{text-align:center;margin-bottom:30px;font-size:32px;}
+.btn{display:inline-block;background:#ff4b2b;color:#fff;padding:12px 28px;border-radius:30px;transition:0.3s;}
+.btn:hover{background:#e8431f;}
+
+
+header{background:#2C2C2C;padding:20px 0;box-shadow:0 2px 5px rgba(0,0,0,0.1);position:fixed;top:0;width:100%;z-index:100;}
+.nav-container::after{content:"";display:block;clear:both;}
+.logo{float:left;font-weight:600;font-size:24px;}
+.logo span{color:#ff4b2b;}
+.nav-links{list-style:none;float:right;}
+.nav-links li{display:inline-block;margin-left:25px;}
+.nav-links a{font-weight:500;transition:color .3s;}
+.nav-links a:hover{color:#ff4b2b;}
+
+
+.hero{background:#9f9f9f;padding:150px 0 60px;}
+.hero-wrapper::after{content:"";display:block;clear:both;}
+.hero-text{float:left;width:55%;color: #000000;}
+.hero-image{float:right;width:40%;text-align:center;}
+.hero-text h4{font-size:18px;color:#666;}
+.hero-text h1{font-size:48px;margin:10px 0;color:#222;}
+.hero-text h3{font-size:24px;color:#ff4b2b;margin-bottom:20px;}
+.hero-text p{line-height:1.7;margin-bottom:30px;}
+.hero-image img{width:350px;max-width:100%;border-radius:20px;;}
+
+
+.portfolio{background:#f8f9fc;padding:60px 0;}
+.subsection{padding:60px 20px;border-bottom:1px solid #ddd;}
+.subsection:last-child{border-bottom:none;}
+
+
+.skill-list{text-align:center;}
+.skill-item{display:inline-block;background:rgb(232, 232, 232);padding:15px 30px;margin:10px;border-radius:30px;font-weight:500;}
+
+
+.projects{text-align:center;}
+.project{display:inline-block;width:300px;background:#fff;margin:15px;padding:20px;
+         border-radius:8px;box-shadow:0 4px 10px rgba(0,0,0,0.08);text-align:left;}
+.project h3{color:#ff4b2b;margin-bottom:10px;}
+.project p{line-height:1.5;font-size:15px;}
+
+
+.contact{text-align:center;}
+.contact p{margin:10px 0;font-size:16px;}
+
+
+footer{background:#fff;text-align:center;padding:20px 0;box-shadow:0 -2px 5px rgba(0,0,0,0.05);}
